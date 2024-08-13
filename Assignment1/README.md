@@ -23,4 +23,4 @@ Implementation Details:
 2) Processed the dataset to convert everything to lowercase (For POS Tagging, "The" and "the" are considered the same (both are articles))
 3) The dictionary 'probability_tags_bigram' contains the **transition probabilities** (P(t{i}|t{i-1}).
 4) The dictionary 'emission_probabilities_dict' contains the **emission probabilites** (P(w{i}|t{i}).
-5) The algorithm used to compute the best/optimal sequence of tags is the Viterbi Algorithm. The Viterbi Algorithm is based on Markov Assunmptions and is a Dynamic Programming based algorith that helps us reduce our search space. Given there are S tags and L words in the input sequence, the initial search space is $S^{L}$ which can be reduced to $S^{2}L$.
+5) The algorithm used to compute the best/optimal sequence of tags is the Viterbi Algorithm. The Viterbi Algorithm is based on Markov Assunmptions and is a Dynamic Programming based algorithm that helps us reduce our search space. Given there are S tags and L words in the input sequence, the initial search space is $S^{L}$ which can be reduced to $S^{2}L$ using the Viterbi's Algorithm.
