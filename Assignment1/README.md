@@ -31,7 +31,10 @@ This implementation makes the following standard assumptions:
 
 ![Viterbi](https://github.com/user-attachments/assets/10752843-54a3-43e5-a022-9370b63fc9d1)
 
-**Training and Evaluation:** The HMM was trained on the Brown dataset corpus, the evaluation involved a 5-fold cross validation. The training resulted in an average accuracy of **0.738** per fold. 
+**Training and Evaluation:** The HMM was trained on the Brown dataset corpus, the evaluation involved a 5-fold cross validation. The training resulted in an average accuracy of **0.738** per fold. The confusion matrix after 5 folds of validation looks like this:
+
+<img width="364" alt="Screenshot 2024-08-17 194620" src="https://github.com/user-attachments/assets/8249be93-a95a-45f1-ac80-b52d94bcbecf">
+
 
 **Problems faced in HMM based POS Tagging:**
 All problems are due to **SPARSITY**. Kinds of Sparsity:
@@ -39,5 +42,6 @@ All problems are due to **SPARSITY**. Kinds of Sparsity:
 2) Different form of the word is used (Word Morphology Problem - corpus has 'predictable' but not 'unpredictable')
 3) Language Code Mixing ('aap mujhe advice dedo please' - 'Please give me advice') (Hindi + English mixing)
 4) Corpus doesn't have a particular word-tag combination (Example - 'people' as verb)
+
 
 
