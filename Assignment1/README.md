@@ -29,14 +29,15 @@ This implementation makes the following standard assumptions:
 
 **Visualization of Viterbi's Algorithm:**
 
-![Viterbi](https://github.com/user-attachments/assets/10752843-54a3-43e5-a022-9370b63fc9d1)
-
+<div align="center">
+   ![Viterbi](https://github.com/user-attachments/assets/10752843-54a3-43e5-a022-9370b63fc9d1)
+</div>
 
 
 **Training and Evaluation:** The HMM was trained on the Brown dataset corpus, the evaluation involved a 5-fold cross validation. The training resulted in an average accuracy of **0.738** per fold. The confusion matrix after 5 folds of validation looks like this:
 
 <div align="center">
-   <img width="500" alt="Screenshot 2024-08-17 194620" src="https://github.com/user-attachments/assets/8249be93-a95a-45f1-ac80-b52d94bcbecf">
+   <img width="800" alt="Screenshot 2024-08-17 194620" src="https://github.com/user-attachments/assets/8249be93-a95a-45f1-ac80-b52d94bcbecf">
 </div>
 
 
