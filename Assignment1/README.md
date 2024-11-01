@@ -1,4 +1,3 @@
-
 ## Assignment 1 - Hidden Markov Model (HMM) based Part of Speech Tagging (POS - Tagging)
 This is my imlementation for POS Tagging on Brown's Dataset using HMMs. The above implementation makes use of the **'universal_tagset'** for POS tagging. The HMMs were solved by Viterbi's Algorithm. POS Tagging is a basic Sequence to Sequence Mapping NLP Technique. A couple of examples of POS Tagging are:
 1) Input --> "Reading is an essential skill."
