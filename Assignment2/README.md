@@ -20,5 +20,5 @@ In POS tagging, CRFs are used to predict the correct part of speech for each wor
 
 **Visualization of Conditional Random Fields:**
 <div align="center">
-   <img src = "[https://www.google.com/url?sa=i&url=https%3A%2F%2Fslideplayer.com%2Fslide%2F4136134%2F&psig=AOvVaw2he1u5XK0VbzI-rel9hcWC&ust=1730571696024000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCND9lZfgu4kDFQAAAAAdAAAAABAE](https://slideplayer.com/slide/4136134/13/images/22/Conditional+Random+Fields.jpg)">
+   <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeEPfew1wRtYRd9TrG0YmwDnQaEcvR5CwqA&s">
 </div>
