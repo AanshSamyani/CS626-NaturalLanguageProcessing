@@ -22,3 +22,14 @@ In POS tagging, CRFs are used to predict the correct part of speech for each wor
 <div align="center">
    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeEPfew1wRtYRd9TrG0YmwDnQaEcvR5CwqA&s">
 </div>
+
+**Training and Evaluation:** The CRF was trained on the Brown dataset corpus, the evaluation involved a 5-fold cross validation. The training resulted in an average accuracy of **0.974** per fold. The confusion matrix after 5 folds of validation looks like this:
+
+<div align="center">
+   <img width="800" alt="Screenshot 2024-11-01 235713" src="https://github.com/user-attachments/assets/ac468161-6d20-4b96-aa0e-bcc845486c4f">
+</div>
+
+**Problems faced in CRF based POS Tagging:**
+1) **Feature Engineering:** CRFs depend heavily on hand-engineered features. Selecting informative features can be labor-intensive, requiring domain expertise and understanding of linguistic nuances, which may not always be feasible for large or diverse datasets.
+2) **Limited Long-Range Dependencies:** While CRFs capture local dependencies well, they struggle with long-range dependencies within a sentence. In POS tagging, certain tags can depend on words further away in the sequence, which CRFs cannot model as effectively without extensive, custom feature design.
+3) **Scalability for Large Datasets:** In practice, applying CRFs to very large datasets or corpora may be challenging, as the model doesn’t inherently scale well. As a result, for large-scale tagging applications, faster, more scalable alternatives like neural sequence models are sometimes preferred.
